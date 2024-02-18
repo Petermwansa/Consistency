@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background: grey;
+}
+.container {
+    margin: auto;
+    width: 500px;
+    height: 700px;
+    background: rgba(9, 12, 222, 0.361);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    box-shadow: 5px 5px 30px 10px white;
+    color: #000;
+}
+
+.container h1 {
+    margin-top: -30px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.container h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+
+}
+
+.container .days {
+    display: flex;
+    flex-direction: row;
+}
+
+.container .days h3 {
+    font-size: 60px;
+    margin: 1rem;
+}
+
+.container h3 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.container .consistency {
+    display: flex;
+    flex-direction: row;
+}
+
+.container .consistency p {
+    margin: 1rem;
+    font-weight: 600;
+}
